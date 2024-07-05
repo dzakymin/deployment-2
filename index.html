@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Dzaky</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!--Navigasi-->
+    <div class="nav-container">
+        <div class="logo"></div>
+        <nav>
+            <a href="">Home</a>
+            <a href="#log_profile">Our Profile</a>
+            <a href="#penghargaan">about me</a>
+            <a href="">Massage us</a>
+        </nav>
+    </div>
+    <div class="space"></div>
+    <!--Main-->
+    <main>
+        <section id="greeting">
+             <!--content greeting-->
+            <header>
+                    <h1>Hii! <span class="user-name" style="display: inline;"></span> This is my first web</h1>
+                    <p>Hope you enjoy it :</p>    
+            </header>
+            <div class="container-img">
+                <div class="list-img" style="background-image: url(/Asset/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);"></div>
+            </div>
+        </section>
+        <hr>
+        <!--Our profile-->
+        <section id="log_profile"> 
+            <header>
+                <h1> City i lived</h1>
+            </header>
+            <article class="our-profile">
+                    <div class="Profile1">
+                        <div class="bingkai1" style="background-image: url(Asset/images.jpeg) ;"></div>
+                        <p>Bandung</p>
+                    </div>
+                    <div class="Profile2">
+                        <div class="bingkai2" style="background-image: url(Asset/pangandaran.jpeg);"></div>
+                        <p>Pangandaran</p>
+                    </div>
+    
+                    <div class="Profile3">
+                        <div class="bingkai"></div>
+                        <p>Bogor</p>
+                </div>
+                <div class="jarak"></div>
+            </article>
+        </section>
+        <hr>
+        <!---end-->
+
+        <section id="penghargaan">
+            <header>
+                <h1>About me</h1>
+            </header>
+            <article class="achievment">
+                <div class="achievment-container">
+                    <div class="picture-achievment"></div>
+                    <h4>Hobi</h4>
+                    <div class="text">
+                        <p>Saya memenangkan kejuaraan ini ketika saya masih duduk dikelas 11 dan itu merupakan hal yang meyenangkan</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="achievment-container">
+                    <div class="picture-achievment"></div>
+                    <h4>education</h4>
+                    <div class="text">
+                        <p>Saya memenangkan kejuaraan ini ketika saya masih duduk dikelas 11 dan itu merupakan hal yang meyenangkan</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                <div class="achievment-container">
+                    <div class="picture-achievment"></div>
+                    <h4>eat</h4>
+                    <div class="text">
+                        <p>Saya memenangkan kejuaraan ini ketika saya masih duduk dikelas 11 dan itu merupakan hal yang meyenangkan</p>
+                    </div>
+                </div>
+            </article>
+            <hr>
+        </section>
+        <section>
+            <header>
+                <h1>Message</h1>
+            </header>
+            <article id="massage">
+                <div class="massage-container">
+                    <table>
+                        <tr>
+                            <td><label for="Firstname">firstname </label></td>
+                            <td> : <input type="text" id="firstname"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastname">Lastname</label></td>
+                            <td> : <input type="text" id="lastname"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="birtday">Tanggal Lahir</label></td>
+                            <td>: <input type="date" name="birtday" id="birtday"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="jk">Jenis Kelamin</label></td>
+                            <td> : <input type="radio" id="Pria" name="gender" value="pria"> Pria <input type="radio" id="Wanita" name="gender" value="Wanita"> Wanita</td>
+                        </tr>
+
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td style="vertical-align: top;">pesan <span style="margin-left: 56px;"> : </span> </td>
+                            <td><textarea name="" id="pesan" cols="20" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="reset" class="btn" onclick="hasil()">send</button>
+                            </td>
+                        </tr>
+    
+                    </table>
+
+                </div>
+                <div class ="con-result">
+                    <div class="first-name-target"></div>
+                    <div class="last-name-target"></div>
+                    <div class="tgl-target"></div>
+                    <div class="jenis-kelamin-target"></div>
+                    <div class="pesan-target"></div>    
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="/JS/script.js"></script>
+
+</body>
+</html>
